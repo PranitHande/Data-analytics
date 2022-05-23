@@ -1,5 +1,5 @@
 Data Analytics Questions
-Assignment - 1
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ASSIGNMENT 1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 1)Commands for Performing simple linear regression (create linear regression model)?
 regressor = LinearRegression() # Creating a regressor
 regressor.fit(X_train,y_train) # Fiting the dataset into the model
@@ -79,7 +79,7 @@ You can then also get the Accuracy using:
 Accuracy = (TP+TN) / Total = (4+4) / 10 = 0.8
 The accuracy is therefore 80% for the test set.
 
-Assignment - 2
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ASSIGNMENT - 2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 9) How Print test data and predicted data Predictions on the test set ?
 Diving Deeper into the Results -> print two components in the python code:
 print (x_test)
@@ -96,7 +96,7 @@ transactions = [ ]
 for i in range(0, len(df)):
 transactions.append([str(df.values[i,j]) for j in range(0, len(df.columns))])
 
-Assignment - 3
+>>>>>>>>>>ASSIGNMENT 3<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 12) Natural Language Toolkit (NLTK) :
 NLTK is a Python Package for performing Natural Language Processing on human language data which is mostly unstructured. It mainly focuses on analyzing textual data. It supports different natural language processing algorithms such as Tokenization, Frequency Distribution, Stopwords, Lexicon Normalization, Stemming, Lemmatization, POS Tagging. These are considered as pre-processing steps to perform text analytics.
 
